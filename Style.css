@@ -1,0 +1,140 @@
+.Cre-card {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1479669732031-affb2ce2d265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .Cre-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+  }
+  
+  /* .Cre-card:hover .Cre-card-inner {
+    transform: rotateY(180deg);
+  } */
+  
+  .Cre-card-front,
+  .Cre-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .Cre-card-front {
+    transform: rotateY(0deg);
+  } 
+  
+  .Cre-card-back {
+    transform: rotateY(180deg);
+  }
+  
+  .Cre-card-logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+  }
+  .Cre-card-logo img {
+    height: 70px;
+  }
+  
+  .Cre-card-number {
+    font-size: 30px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family: monospace;
+  }
+  
+  .Cre-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 20px;
+  }
+  
+  .Cre-card-holder,
+  .Cre-card-expiry {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: monospace;
+  }
+  
+  .Cre-card-holder label,
+  .Cre-card-expiry label {
+    color: #dbd4d4;
+    font-size: medium;
+  }
+  
+  .Cre-card-signature {
+    margin-bottom: 20px;
+  }
+  
+  .Cre-card-signature img {
+    width: 120px;
+    height: 40px;
+  }
+  
+  .Cre-card-cvv {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .Cre-card-cvv label {
+    color: #dbd4d4;
+    font-size: medium;
+  }
+  .center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cre-card-holder .txt label,
+  .Cre-card-expiry .txt label{
+    font-family: math;
+    color: gold;
+  }
+  .txt{
+    font-family: math;
+    color: gold;
+  }
+
+  .black-strip{
+    height: 20%;
+    background: #dfbe10eb;
+  }
+  .strip{
+    background: gray;
+    height: 40px;
+  }
+  .divhvcenter{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -12px;
+  }
+  #cvvtxt{
+    height: 32px;
+    width: 55px;
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  .mg-l{
+    margin-left: 20px !important;
+  }
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  .fon15{
+    font-size: 15px !important;
+  }
